@@ -1,0 +1,254 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{24FD6808-AF86-479A-9387-A578A31EEEE0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>_220070288___RT_Tsosane</RootNamespace>
+    <AssemblyName>220070288 - RT Tsosane</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44356</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="063d30691563939a85ff577ba931d86d.jpg" />
+    <Content Include="152f6a0f0de60d3d2b35b0ea3a2ba5e7.jpg" />
+    <Content Include="184560bdffe23fac87650892212e16fe.jpg" />
+    <Content Include="19f84125734e61582507628ebc86abc3.jpg" />
+    <Content Include="20210603_003233.jpg" />
+    <Content Include="30e12fcc1e1b1071ff9ab2adc6852cde.jpg" />
+    <Content Include="35b52d16ea1766ecb30ad17fcc43409a.jpg" />
+    <Content Include="5f9d0999fa00e728afdc6eb70c3c076b.jpg" />
+    <Content Include="7ae18163868b1dff65ec23741f00dd1c.jpg" />
+    <Content Include="83557d820975a4c41e9e138e9d47b262.jpg" />
+    <Content Include="8a8ab8dc43d37d78b73570dd6d67acfa.jpg" />
+    <Content Include="8f3d474a3d363f713b4836776fac8194.jpg" />
+    <Content Include="9d2392a2a4420d517632337f85a987b8.jpg" />
+    <Content Include="ab61f743b791df0e5b23c8b32644b217.jpg" />
+    <Content Include="About Us.aspx" />
+    <Content Include="acb7ffcbb39413e1026d3350b6e47af5.jpg" />
+    <Content Include="Add Your Art.aspx" />
+    <Content Include="Aesthetic Digital Museum.aspx" />
+    <Content Include="assets\favicon.ico" />
+    <Content Include="assets\img\bg-masthead.jpg" />
+    <Content Include="assets\img\bg-signup.jpg" />
+    <Content Include="assets\img\demo-image-01.jpg" />
+    <Content Include="assets\img\demo-image-02.jpg" />
+    <Content Include="assets\img\ipad.png" />
+    <Content Include="b49dcea79cae605a1a3fecc03210e56c.jpg" />
+    <Content Include="c.jpg" />
+    <Content Include="Cart.aspx" />
+    <Content Include="Contact Us.aspx" />
+    <Content Include="css\styles.css" />
+    <Content Include="d.jpg" />
+    <Content Include="d91c915f2393301d5945a6d7207ed079.jpg" />
+    <Content Include="escape.jpg" />
+    <Content Include="f.jpg" />
+    <Content Include="gui.jpg" />
+    <Content Include="jah.jpg" />
+    <Content Include="js\scripts.js" />
+    <Content Include="Man-Made Art.aspx" />
+    <Content Include="man-Scape.jpg" />
+    <Content Include="neck.jpg" />
+    <Content Include="painting.jpg" />
+    <Content Include="Paintings.aspx" />
+    <Content Include="sculpture.jpg" />
+    <Content Include="Sculptures.aspx" />
+    <Content Include="Services.aspx" />
+    <Content Include="Sign In.aspx" />
+    <Content Include="Sign Up.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="withinADM.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About Us.aspx.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About Us.aspx.designer.cs">
+      <DependentUpon>About Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Add Your Art.aspx.cs">
+      <DependentUpon>Add Your Art.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Add Your Art.aspx.designer.cs">
+      <DependentUpon>Add Your Art.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aesthetic Digital Museum.aspx.cs">
+      <DependentUpon>Aesthetic Digital Museum.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aesthetic Digital Museum.aspx.designer.cs">
+      <DependentUpon>Aesthetic Digital Museum.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cart.aspx.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cart.aspx.designer.cs">
+      <DependentUpon>Cart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact Us.aspx.cs">
+      <DependentUpon>Contact Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact Us.aspx.designer.cs">
+      <DependentUpon>Contact Us.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Man-Made Art.aspx.cs">
+      <DependentUpon>Man-Made Art.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Man-Made Art.aspx.designer.cs">
+      <DependentUpon>Man-Made Art.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Paintings.aspx.cs">
+      <DependentUpon>Paintings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Paintings.aspx.designer.cs">
+      <DependentUpon>Paintings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sculptures.aspx.cs">
+      <DependentUpon>Sculptures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sculptures.aspx.designer.cs">
+      <DependentUpon>Sculptures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services.aspx.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services.aspx.designer.cs">
+      <DependentUpon>Services.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sign In.aspx.cs">
+      <DependentUpon>Sign In.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sign In.aspx.designer.cs">
+      <DependentUpon>Sign In.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Sign Up.aspx.cs">
+      <DependentUpon>Sign Up.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Sign Up.aspx.designer.cs">
+      <DependentUpon>Sign Up.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="withinADM.aspx.cs">
+      <DependentUpon>withinADM.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="withinADM.aspx.designer.cs">
+      <DependentUpon>withinADM.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\AestheticDigitalMuseum - Web Deploy.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50996</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44356/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
